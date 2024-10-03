@@ -22,7 +22,6 @@ const UserTypeSelector = ({
     <Select
       value={userType}
       onValueChange={(type: UserType) => accessChangeHandler(type)}
-      disabled={userType === "viewer"}
     >
       <SelectTrigger className="shad-select">
         <SelectValue />
